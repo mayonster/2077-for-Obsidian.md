@@ -51,13 +51,13 @@
   --scrollbar-thumb-bg: rgba(255, 255, 255, 0.1);
 
   --text-title-h1:              #ff2e97;
-  --text-title-h2:              #0ef3ff;
-  --text-title-h3:              #c832ff;
+  --text-title-h2:              #c832ff;
+  --text-title-h3:              #0ef3ff;
   --text-title-h4:              #ffd400;
-  --text-title-h5:              #50fa7b;
+  --text-title-h5:              #0b8146;
   --text-title-h6:              #8be9fd;
-  --inline-code:                #640bf4;
-  --code-block:                 #8be9fd;
+  --inline-code:                #c832ff;
+  --code-block:                 #ff2e97;
   --pre-code:                   #44475a;
   --blockquote-border:          #ffb86c;
   --vim-cursor:                 #ff2e97;
@@ -235,12 +235,12 @@ a:not(.internal-link) {
 /* bold in preview and editor */
 strong, .cm-strong {
   font-weight: 600;
-  color: #50fa7b;
+  color: #0ef3ff;
 }
 
 /* emphasis in preview and editor */
 em, .cm-em {
-  color: var(--text-muted);
+  color: var(--text-title-h5);
   font-style: italic;
 }
 
@@ -588,13 +588,13 @@ color: var(--text-accent) !important;
 /***************************************/
 
 .markdown-source-view.is-readable-line-width .CodeMirror {
-  max-width: 900px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .markdown-preview-view.is-readable-line-width .markdown-preview-section {
-  max-width: 900px;
+  max-width: 1200px;
   margin-left: 30px;
   margin-right: 30px;
 }
